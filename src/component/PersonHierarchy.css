@@ -1,0 +1,53 @@
+.person-container {
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.person-container h1,
+.person-container h2 {
+  font-size: 42px;
+  margin-bottom: 30px;
+  color: #1f2937;
+}
+
+/* Card */
+.person-card {
+  background-color: #f9fafb;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+/* Name + Role */
+.person-card h3 {
+  font-size: 26px;
+  margin-bottom: 10px;
+  color: #111827;
+}
+
+/* Age */
+.person-card p {
+  font-size: 20px;
+  margin: 6px 0;
+  color: #374151;
+}
+
+/* Italic Description */
+.person-description {
+  font-style: italic;
+  color: #4b5563;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Extra Info */
+.extra-info {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #111827;
+  font-weight: 500;
+}

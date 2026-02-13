@@ -1,0 +1,85 @@
+/* Main Container */
+.library-container {
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: auto;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+/* Heading */
+.library-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* Search Bar */
+.search-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 1px solid #ffffff;
+  background-color: #d1dde9;
+    color: white;
+}
+
+/* Form Section */
+.form-section {
+  margin-bottom: 30px;
+}
+
+.form-section input {
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  color: white;
+  background-color: #d1dde9;
+}
+
+/* Buttons */
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Book List */
+.book-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.book-item {
+  background-color: #f4f6f7;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:#2c3e50;
+}
+
+.remove-btn {
+  background-color: #e74c3c;
+}
+
+.remove-btn:hover {
+  background-color: #c0392b;
+}
+body{
+    display: flex;
+    justify-content:center;
+}
